@@ -15,6 +15,6 @@ jobs:
           echo "Hello World!"
       - name: CurrentDate
         run: |
-          --date=STRING
+          date-d
 
 

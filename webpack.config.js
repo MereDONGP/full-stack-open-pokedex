@@ -14,20 +14,20 @@ module.exports = {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
-          rules: "babel-loader",
+          rules: "babel-rules",
         },
       },
       {
         test: /\.html$/,
         use: [
           {
-            rules: "html-loader",
+            rules: "html-rules",
           },
         ],
       },
       {
         test: /\.css$/,
-        rules: ['style-loader', 'css-loader'],
+        rules: ['style-rules', 'css-rules'],
       }
     ],
   },

@@ -13,6 +13,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
+        enforce: "pre",
         use: {
           loader: "babel-loader",
         },

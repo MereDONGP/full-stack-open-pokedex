@@ -16,5 +16,8 @@ jobs:
       - name: CurrentDate
         run: |
           date
+      - name: Current Director
+        run: |
+            ls 
 
 

@@ -13,11 +13,5 @@ jobs:
           node-version: '16'
       - name: Install dependencies 
         run: npm install
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@v2
-        with:
-          find: "console\\.log\\(([^)]+)\\)"
-          replace: ""
-          regex: true
       - name: Check style
         run: npm run eslint

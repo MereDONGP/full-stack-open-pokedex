@@ -29,7 +29,8 @@ module.exports = {
     ],
     "settings": {
       "react": {
-        "version": "17.0"
+        "version": "17.0",
+        "severity": 0
       }
     },
     "quotes": [

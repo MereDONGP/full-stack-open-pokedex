@@ -27,12 +27,6 @@ module.exports = {
       "error",
       "unix"
     ],
-    "settings": {
-      "react": {
-        "version": "17.0",
-        "severity": 0
-      }
-    },
     "quotes": [
       "error",
       "single"
@@ -51,5 +45,11 @@ module.exports = {
     ],
     "no-console": "off",
     "react/prop-types": 0
-  }
+  },
+  "settings": {
+    "react": {
+      "version": "17.0",
+      "severity": 0
+    }
+  },
 }

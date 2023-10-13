@@ -27,6 +27,11 @@ module.exports = {
       "error",
       "unix"
     ],
+    "settings": {
+      "react": {
+        "version": "17.0"
+      }
+    },
     "quotes": [
       "error",
       "single"

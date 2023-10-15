@@ -23,8 +23,8 @@ const PokemonPage = ({ previous, next }) => {
     name: formatName(stat.stat.name),
     value: stat.base_stat
   })).reverse()
-  const normalAbility = pokemon.abilities.find((ability) => !ability.is_hidden)
-  const hiddenAbility = pokemon.abilities.find((ability) => ability.is_hidden === true)
+  const normalAbility = pokemon.abilities.find((ability) => ability.is_hidden)
+  const hiddenAbility = pokemon.abilities.find((ability) => !ability.is_hidden === true)
 
   return (
     <>
